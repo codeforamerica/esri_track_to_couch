@@ -8,6 +8,8 @@ You need to have the Esri connector sdk downloaded. You can get that [here](http
 
 This requires an Esri account, and is subject to their license.
 
+Unzip this file and copy ConnectorApi/lib/JavaConnectorAPI.jar to esriconnector.jar
+
 ## Compilation
 
     javac -cp "commons-codec.jar:commons-logging.jar:esriconnector.jar:json.jar:httpclient.jar:httpcore.jar" FollowService.java 
