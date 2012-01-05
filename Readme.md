@@ -17,4 +17,4 @@ Unzip this file and copy ConnectorApi/lib/JavaConnectorAPI.jar to esriconnector.
 For both compilation and running, as an alternative to setting the classpath with -cp, you can unzip the jar files.
 ## Running
 
-    javac -cp "commons-codec.jar:commons-logging.jar:esriconnector.jar:json.jar:httpclient.jar:httpcore.jar:./" FollowService <tracking server host> <tracking server port> <destination URI> <destination username> <destination password>
+    java -cp "commons-codec.jar:commons-logging.jar:esriconnector.jar:json.jar:httpclient.jar:httpcore.jar:./" FollowService <tracking server host> <tracking server port> <destination URI> <destination username> <destination password>
